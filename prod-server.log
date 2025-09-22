@@ -1,0 +1,462 @@
+
+> rest-express@1.0.0 start
+> cross-env NODE_ENV=production node dist/server/index.js
+
+InMemoryStorage initialized
+Aviation Stack API key is not configured. Real-time flight data may be limited.
+RapidAPI client initialized successfully
+GetOTP API configuration validated successfully
+Loaded country cache data
+Already featuring Greece for today (2025-09-22)
+IRCTC Air API service initialized with baseUrl: https://irctc-air-proxy.fly.dev/api/v1
+Aviation Stack API key is not configured. Real-time flight data may be limited.
+IRCTC Air API service initialized with baseUrl: https://irctc-air-proxy.fly.dev/api/v1
+Amadeus API credentials not configured
+11:43:11 AM [express] Checking database connection...
+Database connection attempt failed (3 retries left): ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://localhost/v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  },
+  [Symbol(kMessage)]: ''
+}
+Database initialization failed, falling back to InMemoryStorage: ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://localhost/v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  },
+  [Symbol(kMessage)]: ''
+}
+InMemoryStorage initialized
+Database connection attempt failed (2 retries left): ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://localhost/v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  },
+  [Symbol(kMessage)]: ''
+}
+Database connection attempt failed (1 retries left): ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://localhost/v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  },
+  [Symbol(kMessage)]: ''
+}
+All database connection attempts failed: ErrorEvent {
+  [Symbol(kTarget)]: WebSocket {
+    _events: [Object: null prototype] {
+      error: [Function],
+      message: [Function],
+      close: [Function],
+      open: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    _binaryType: 'arraybuffer',
+    _closeCode: 1006,
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: <Buffer >,
+    _closeTimer: null,
+    _errorEmitted: true,
+    _extensions: {},
+    _paused: false,
+    _protocol: '',
+    _readyState: 3,
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _bufferedAmount: 0,
+    _isServer: false,
+    _redirects: 0,
+    _autoPong: true,
+    _url: 'wss://localhost/v2',
+    _req: null,
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  },
+  [Symbol(kType)]: 'error',
+  [Symbol(kError)]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  },
+  [Symbol(kMessage)]: ''
+}
+Database connection failed: 
+Continuing with InMemoryStorage as fallback. Data will not persist between restarts.
+11:43:13 AM [express] Setting up authentication...
+Setting up auth with development mode: false
+Google OAuth is not configured. GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET environment variables are required.
+11:43:13 AM [express] Authentication setup complete
+Starting password reset...
+Getting user by username (in-memory): test123 not found
+Getting user by username (in-memory): test456 not found
+Password reset completed
+11:43:13 AM [express] Registering API routes...
+Starting server initialization...
+Setting up auth with development mode: false
+Google OAuth is not configured. GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET environment variables are required.
+Authentication setup completed successfully
+Subscription routes mounted successfully
+Flights routes mounted successfully
+API routes registered
+AI Trip Planner routes mounted successfully
+AI Orchestrator routes mounted successfully
+Trip inspiration routes registered successfully
+11:43:13 AM [express] API routes registered
+Serving static files from: C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\dist\dist\public exists: false
+Starting server on port 3000
+Starting server with configuration: { port: 3000, host: '0.0.0.0', env: 'production' }
+Server listening on http://0.0.0.0:3000
+11:43:13 AM [express] Server running on 0.0.0.0:3000 in production mode
+Server startup complete
+11:43:13 AM [express] Setting up WebSocket server...
+Initializing Socket.IO server...
+WebSocket server environment: {
+  isProd: true,
+  isCustomDomain: undefined,
+  NODE_ENV: 'production',
+  REPL_SLUG: undefined,
+  HOSTNAME: undefined
+}
+Socket.IO server initialized successfully
+11:43:13 AM [express] WebSocket server setup complete
+11:43:13 AM [express] Setting up frontend server...
+11:43:13 AM [express] Running in production mode - static files configured
+11:43:13 AM [express] Frontend server setup complete
+Environment setup: {
+  NODE_ENV: 'production',
+  PORT: 3000,
+  REPL_SLUG: 'not set',
+  REPL_OWNER: 'not set',
+  isProduction: true
+}
+Request hostname: localhost
+Request hostname: localhost
+11:45:18 AM [express] GET /assets/index-WbYXqbns.css 200 84ms
+11:45:18 AM [express] GET /assets/index-BBBcid2F.js 200 134ms
+Request hostname: localhost
+11:45:18 AM [express] GET /api/user 401 12ms
+Request hostname: localhost
+Request hostname: localhost
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/auth-page-q2hw7v81.js 200 22ms
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/index-C9oPLG8B.js 200 32ms
+11:45:19 AM [express] GET /assets/form-B7kKaCQr.js 200 35ms
+Request hostname: localhost
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/label-4MzMEH1v.js 200 32ms
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/input-B4cawbYV.js 200 28ms
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/schema-C3mIfd5n.js 200 85ms
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/tabs-BeHwfcW8.js 200 82ms
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/bot-BAHV8Zm9.js 200 63ms
+11:45:19 AM [express] GET /assets/index-FiVlIW_8.js 200 118ms
+Request hostname: localhost
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/dialog-Bkt8LhVC.js 200 94ms
+11:45:19 AM [express] GET /assets/lock-keyhole-C68C3NBt.js 200 130ms
+11:45:19 AM [express] GET /assets/user-CBTCoX_V.js 200 156ms
+Request hostname: localhost
+Request hostname: localhost
+11:45:19 AM [express] GET /assets/copy-2u0VF7l4.js 200 73ms
+11:45:19 AM [express] GET /assets/sparkles-BzrR8Sxa.js 200 63ms
+Request hostname: localhost
+Emergency number validation request: { countryCode: 'IN', hasNumbers: false }
+11:45:20 AM [express] POST /api/validate-emergency-numbers 200 143ms
+New Socket.IO connection: { id: '9gogZ4jMBDM0ILgpAAAB' }
+Request hostname: localhost
+11:45:24 AM [express] GET /sw.js 304 8ms
+Request hostname: localhost
+Registration request received
+Getting user by username (in-memory): mujtaba@r.com not found
+Getting user by phone (in-memory): +91700643216 not found
+Creating new user: { username: 'mujtaba@r.com' }
+User created: { id: 1, username: 'mujtaba@r.com' }
+User registered successfully: 1
+Serializing user session
+11:45:49 AM [express] POST /api/register 201 152ms
+Request hostname: localhost
+Sending OTP to: { email: 'mujtaba@r.com', phone_number: '+9191700643216' }
+Error in sendOTP: Error: Email service not configured
+    at OTPService.sendOTP (file:///C:/Users/Sadaf%20Mirza/Downloads/Ai-travelsearch%20(11)/Ai-travelsearch/dist/server/index.js:9385:17)
+    at file:///C:/Users/Sadaf%20Mirza/Downloads/Ai-travelsearch%20(11)/Ai-travelsearch/dist/server/index.js:13870:39
+    at Layer.handle [as handle_request] (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (C:\Users\Sadaf Mirza\Downloads\Ai-travelsearch (11)\Ai-travelsearch\node_modules\passport\lib\middleware\authenticate.js:355:9)
+11:45:50 AM [express] POST /api/send-otp 400 6ms
+Request hostname: localhost
+Login attempt received
+Getting user by username (in-memory): mujtaba@r.com found
+User login successful
+Serializing user session
+User logged in successfully: 1
+11:46:20 AM [express] POST /api/login 200 268ms
+User authenticated: { id: 1, username: 'mujtaba@r.com', colorScheme: 'default' }
+Request hostname: localhost
+11:46:21 AM [express] GET /api/ai/proactive-suggestions 401 5ms
+Getting user by ID: 1 found
+Broadcasted user list
+Request hostname: localhost
+Request hostname: localhost
+11:46:27 AM [express] GET /assets/rides-Dgihpmma.css 200 17ms
+11:46:27 AM [express] GET /assets/rides-CZKN7A2U.js 200 38ms
+Request hostname: localhost
+Starting route calculation for: { pickup: 'srinagar', destination: 'bemina' }
+Step 1: Geocoding pickup location...
+Pickup geocoded successfully: {
+  lat: '34.0747444',
+  lon: '74.8204443',
+  name: 'Srinagar, Srinagar (South), Srinagar, Jammu and Kashmir, 190001, India'
+}
+Step 2: Geocoding destination location...
+Destination geocoded successfully: {
+  lat: '34.0762029',
+  lon: '74.7682640',
+  name: 'Bemina, Srinagar, Srīnagar, Srinagar, Jammu and Kashmir, 190018, India'
+}
+Step 3: Calculating route with OSRM...
+OSRM URL: http://router.project-osrm.org/route/v1/driving/74.8204443,34.0747444;74.7682640,34.0762029?overview=false
+OSRM Response status: 200
+Route calculated successfully: { distance: 6577, duration: 422 }
+Route calculation completed successfully
+11:46:53 AM [express] POST /api/rides 200 2305ms
+Client disconnected: 9gogZ4jMBDM0ILgpAAAB
+Broadcasted user list
+Request hostname: localhost
+Request hostname: localhost
+12:35:10 PM [express] GET /assets/loading-indicator-D39lBczA.js 200 53ms
+12:35:10 PM [express] GET /assets/preferences-page-BjeDD2Bi.js 200 172ms
+Request hostname: localhost
+12:35:10 PM [express] GET /api/user/preferences 401 16ms
+Request hostname: localhost
+12:35:10 PM [express] GET /assets/user-profile-BF2Dedwo.js 200 35ms
+Request hostname: localhost
+12:37:18 PM [express] POST /api/user/profile 401 15ms
+Request hostname: localhost
+12:37:18 PM [express] GET /api/user 401 5ms
+Request hostname: localhost
+12:37:18 PM [express] GET /api/user/preferences 401 6ms
+Request hostname: localhost
+12:37:18 PM [express] GET /api/user/profile 401 3ms
+Request hostname: localhost
+Login attempt received
+Getting user by username (in-memory): mujtaba@r.com found
+User login successful
+Serializing user session
+User logged in successfully: 1
+12:37:25 PM [express] POST /api/login 200 250ms
+Request hostname: localhost
+12:37:25 PM [express] GET /api/ai/proactive-suggestions 401 9ms
+Request hostname: localhost
+12:43:31 PM [express] POST /api/ai/trip-recommendations 401 34ms
+Request hostname: localhost
+12:43:42 PM [express] POST /api/ai/trip-recommendations 401 3ms
+Request hostname: localhost
+12:48:57 PM [express] POST /api/ai/trip-recommendations 401 4ms
+Request hostname: localhost
+Logout request for user: undefined
+No authenticated session to logout
+12:49:30 PM [express] POST /api/logout 200 98ms
+Request hostname: localhost
+12:49:30 PM [express] GET /api/user 401 3ms
+Request hostname: localhost
+Login attempt received
+Getting user by username (in-memory): mujtaba@r.com found
+User login successful
+Serializing user session
+User logged in successfully: 1
+12:49:33 PM [express] POST /api/login 200 160ms
+Request hostname: localhost
+12:49:33 PM [express] GET /api/ai/proactive-suggestions 401 3ms
+Request hostname: localhost
+12:49:39 PM [express] GET /api/user/preferences 401 4ms
+Request hostname: localhost
+12:50:14 PM [express] POST /api/ai/trip-recommendations 401 6ms
+Request hostname: localhost
+12:50:22 PM [express] POST /api/ai/trip-recommendations 401 2ms
+Request hostname: localhost
+12:57:49 PM [express] POST /api/ai/trip-recommendations 401 6ms
+Request hostname: localhost
+12:57:55 PM [express] GET /trip-planner 200 96ms
+Request hostname: localhost
+12:57:55 PM [express] GET /api/user 401 3ms
+Request hostname: localhost
+Emergency number validation request: { countryCode: 'IN', hasNumbers: false }
+12:57:56 PM [express] POST /api/validate-emergency-numbers 200 48ms
+New Socket.IO connection: { id: 'tbHiFxlyd_kio3MNAAAD' }
+Request hostname: localhost
+12:57:57 PM [express] GET /sw.js 304 8ms
+Request hostname: localhost
+Login attempt received
+Getting user by username (in-memory): mujtaba@r.com found
+User login successful
+Serializing user session
+User logged in successfully: 1
+12:57:59 PM [express] POST /api/login 200 138ms
+User authenticated: { id: 1, username: 'mujtaba@r.com', colorScheme: 'default' }
+Request hostname: localhost
+12:57:59 PM [express] GET /api/ai/proactive-suggestions 401 1ms
+Broadcasted user list
+Request hostname: localhost
+Request hostname: localhost
+12:58:04 PM [express] GET /assets/page-layout-Dg0RdXYa.js 200 11ms
+12:58:04 PM [express] GET /assets/trip-planning-complete-C9rPjdXc.js 200 17ms
+Request hostname: localhost
+12:58:04 PM [express] GET /api/user/preferences 401 2ms
+Request hostname: localhost
+12:58:27 PM [express] POST /api/ai/trip-recommendations 401 2ms
+Request hostname: localhost
+1:06:32 PM [express] POST /api/ai/trip-recommendations 401 4ms
+^C
